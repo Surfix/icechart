@@ -3,6 +3,7 @@
 
 [![image](https://img.shields.io/pypi/v/icechart.svg)](https://pypi.python.org/pypi/icechart)
 
+[![open in colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 **A python package for icesat data analysis**
 
