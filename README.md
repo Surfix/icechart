@@ -8,7 +8,7 @@
 
 
 -   Free software: MIT license
--   Documentation: https://Surfix.github.io/icechart
+-   Documentation: https://Surfix.github.io/Icechart
     
 
 ## Features
