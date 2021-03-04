@@ -2,7 +2,6 @@
 
 
 [![image](https://img.shields.io/pypi/v/icechart.svg)](https://pypi.python.org/pypi/icechart)
-
 [![image](https://img.shields.io/conda/vn/conda-forge/icechart.svg)](https://anaconda.org/conda-forge/icechart)
 [![image](https://pepy.tech/badge/icechart)](https://pepy.tech/project/icechart)
 [![image](https://img.shields.io/twitter/follow/survix?style=social)](https://twitter.com/survix)
