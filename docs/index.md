@@ -13,7 +13,7 @@
 
 ## Features
 
--   TODO
+-   This is the index.md from the docs folder
 
 ## Credits
 
