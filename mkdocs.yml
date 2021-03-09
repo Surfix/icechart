@@ -46,3 +46,5 @@ nav:
     - Report Issues: https://github.com/Surfix/icechart/issues
     - API Reference:
           - icechart module: icechart.md
+    - Notebooks:
+        - notebooks/intro.ipynb
