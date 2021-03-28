@@ -23,7 +23,7 @@ plugins:
     - git-revision-date
     - mkdocs-jupyter:
           include_source: True
-          execute: True
+        #   execute: True
           
 markdown_extensions:
     - attr_list
@@ -49,3 +49,4 @@ nav:
     - Notebooks:
         - notebooks/intro.ipynb
         - notebooks/ipyleaflet_intro.ipynb
+        - notebooks/Icechart_intro.ipynb
