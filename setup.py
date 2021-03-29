@@ -53,6 +53,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/Surfix/icechart',
-    version='0.0.2',
+    version='0.0.3',
     zip_safe=False,
 )
