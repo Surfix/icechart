@@ -47,6 +47,6 @@ nav:
     - API Reference:
           - icechart module: icechart.md
     - Notebooks:
-        - notebooks/intro.ipynb
         - notebooks/ipyleaflet_intro.ipynb
         - notebooks/Icechart_intro.ipynb
+        - notebooks/add_geojson_shapefile.ipynb
