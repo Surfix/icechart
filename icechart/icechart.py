@@ -1,8 +1,15 @@
-"""Main module."""
+"""Main module for icechart package by Naheem Adebisi."""
 import os
 import ipyleaflet
 from ipyleaflet import FullScreenControl, LayersControl, DrawControl, MeasureControl, ScaleControl, TileLayer
+from .utils import random_string
+
 class Map(ipyleaflet.Map):
+    """This Map class inherits the ipyleaflet Map Class.
+
+    Args:
+        ipyleaflet (ipyleaflet.Map): An ipyleaflet map.
+    """    
 
     def __init__(self, **kwargs):
 
@@ -68,8 +75,8 @@ class Map(ipyleaflet.Map):
 
         import json
 
-        # if layer_name == "Untitled":
-        #     layer_name = "Untitled " + random_string()
+        if layer_name == "Untitled":
+            layer_name = "Untitled " + random_string()
 
         if isinstance(in_geojson, str):
 
@@ -100,6 +107,13 @@ class Map(ipyleaflet.Map):
         self.add_layer(geo_json) 
 
     def add_shapefile(self, in_shp, style=None, layer_name="Untitled"):
+        """add a shapefile layer to the Map
+
+        Args:
+            in_shp (str): file path to the input shapefile
+            style (dict, optional): The style dictionary. Defaults to None.
+            layer_name (str, optional): The layer name for the shapefile. Defaults to "Untitled".
+        """        
 
         geojson = shp_to_geoson(in_shp)
         self.add_geojson(geojson, style=style, layer_name=layer_name)

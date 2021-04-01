@@ -5,3 +5,4 @@ __email__ = 'adebisi.naheem@gmail.com'
 __version__ = '0.0.4'
 
 from .icechart import *
+from .utils import *
