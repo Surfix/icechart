@@ -16,6 +16,14 @@
 -   Documentation: https://Surfix.github.io/icechart
     
 
+
+## Installation
+
+### conda
+
+```
+conda install icechart -c conda-forge
+```
 ## Features
 
 -   This is the main Readme.md 
