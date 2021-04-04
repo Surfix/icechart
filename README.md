@@ -25,10 +25,18 @@ The easiest way to install icechart is using pip
 ```
 pip install icechart
 ```
+This is the preferred method to install icechart, as it will always install the most recent stable release. If you don't have pip installed, this [Python installation guide](https://docs.python-guide.org/starting/installation/) can guide you through the process.
 ### conda
 The package is under review by conda-forge channel and if approved, there will be option to install using conda package manager. 
 ```
 conda install icechart -c conda-forge
+```
+### From sources
+The sources for icechart can be downloaded from the Github repo.
+
+You can clone the public repository:
+```
+git clone git://github.com/Surfix/icechart
 ```
 ## Features
 
